@@ -1,0 +1,12 @@
+torch>=2.2
+torch_geometric>=2.5
+scikit-learn>=1.4
+scipy>=1.11
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+networkx>=3.0
+plotly>=5.20
+gradio>=5.0
+pytest>=8.0
+jupyter

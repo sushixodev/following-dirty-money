@@ -1,0 +1,4 @@
+reviews per step,random reviews,Logistic regression,Random forest,MLP,GCN,GraphSAGE,GAT,RF + GraphSAGE embeddings
+20,20,61,163,130,143,155,131,168
+50,51,181,367,290,339,358,292,376
+100,102,457,645,523,575,591,527,652
