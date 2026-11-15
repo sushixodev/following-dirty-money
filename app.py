@@ -59,7 +59,7 @@ with gr.Blocks(title="Following Dirty Money") as demo:
         with gr.Tab("Model health", id="health"):
             gr.Markdown("Labels arrive months late, so the model is watched with three signals each period. Move the "
                         "slider to replay the test periods.")
-            health_period = gr.Slider(core.PERIODS[0], core.PERIODS[-1], value=core.BREAK, step=1, label="Period")
+            health_period = gr.Slider(core.PERIODS[0], core.PERIODS[-1], value=core.BREAK - 1, step=1, label="Period")
             health_table = gr.Markdown()
             health_chart = gr.Plot(show_label=False)
 
